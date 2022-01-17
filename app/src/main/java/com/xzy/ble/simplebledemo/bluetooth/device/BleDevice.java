@@ -20,7 +20,7 @@ public class BleDevice extends BaseBleDevice {
     private static final String TAG = "BleDevice";
 
     /**
-     * 根据具体硬件进行设置
+     * 根据具体硬件进行设置——所以说是固定的...
      **/
     public static final String MAC = "A4:34:F1:4A:08:05";
     private static final UUID DEVICE_SERVICE_UUID = UUID.fromString("00001000-0000-1000-8000-00805f9b34fb");
